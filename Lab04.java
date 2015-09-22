@@ -2,7 +2,7 @@ import java.io.File;
 import java.util.*;
 import java.io.FileReader;
 
-public class Csm10j_lab4 {
+public class Lab04 {
     
     static int numberOfIntegers = 0;
     
