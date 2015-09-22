@@ -7,7 +7,7 @@ public class Csm10j_lab4 {
     static int numberOfIntegers = 0;
     
     public static void main(String[] args) throws java.io.FileNotFoundException {
-        String filename = "inData.txt"; 
+        String filename = "input.txt"; 
         Scanner console = new Scanner (new FileReader(filename));
         System.out.printf("Input: ");
         while (console.hasNext()){
@@ -46,3 +46,4 @@ public class Csm10j_lab4 {
         
         return stdDev;
     }
+}    
